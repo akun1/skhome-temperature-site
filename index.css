@@ -40,3 +40,40 @@
 	width: 75%;
 	border-top: solid 10px #000;
 }
+
+.writable-area {
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	left: 5%;
+	top: 12.5%;
+	background-image: url("thermostat_img.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
+}
+
+.thermostat-display {
+	position: absolute;
+	width: 22%;
+	height: 51%;
+	left: 36.5%;
+	top:18.5%;
+	background-color: lightgreen;
+	z-index: -3;
+}
+
+.writable-area-vert {
+	position: absolute;
+	width: 80%;
+	height: 30%;
+	left: 10%;
+	top: 35%;
+	font-size: 40px;
+}
+
+#writable-area-vert-temp {
+	font-size: 70px;
+	font-weight: bolder;
+}
